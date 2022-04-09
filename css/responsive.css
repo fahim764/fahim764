@@ -6,16 +6,196 @@
 
 @media screen and (min-width:992px) and (max-width: 1199px) {
 
-}
+
+            /* nav-area */
+
+            .nav-items ul li a{
+                padding: 8px 12px;
+                font-size: 15px;
+            }
+
+            /* Skin Area */
+
+            .skin-left-side img {
+                margin: 60px 0 0 0;
+                padding-left: 0px;
+              }
+
+              .skin-right-side {
+                margin: 82px 0 41px 0px;
+                padding-left: 10px;
+              }
+
+              /* Skin Assesment */
+
+              .skin-assesment {
+                padding: 50px 0 100px 0;
+              }
+
+              .assesment-left-side h2 {
+                font-size: 33px;
+                margin: 18px 0 24px 0;
+              }
+
+              .assesment-left-side {
+                padding-left: 10px;
+              }
+
+              .assesment-left-side a:first-of-type {
+                margin-top: 25px; 
+              }
+
+              .assesment-left-side a:first-of-type { 
+                padding: 21px 50px;
+                margin-top: 10px; 
+              }
+
+              .assesment-left-side a:last-of-type {
+                padding: 0;
+                margin-left: 13px;
+              }
+
+              .assesment-left-side span {
+                margin: 0 5px 0 6px;
+                font-size: 14px;
+              }
+
+              /* Skin Area */
+
+              .face-document img {
+                width: 220px;
+                height: 220px;
+              }
+
+              .card-document {
+                min-height: 865px;
+                padding: 25px;
+              }
+
+              /* footer */
+
+              .navbar-nav li a {
+                margin-left: 12px;
+              }
 
 
-           
+            }
+
 
 /* for ipad */
 
 @media screen and (min-width:768px) and (max-width: 991px) {
 
-    
+    .nav-items ul li a{
+        padding: 5px 6px;
+        font-size: 14px;
+    }
+
+
+    /* Skin Area */
+
+
+    .skin-img img {
+        top: -156px;
+      }
+
+      .skin-area {
+        padding: 50px 0 30px 0;
+    }
+
+    .skin-left-side img {
+        margin: 100px 0 0 0;
+        padding-left: 0;
+    }
+
+    .skin-right-side h3 {
+        font-size: 32px;
+    }
+
+    .skin-right-side p {
+        font-size: 15px;
+        margin: 28px 0 35px 0;
+    }
+
+    .skin-right-side {
+        margin: 130px 0 50px 40px;
+        padding-left: 0;
+      }
+
+      .skin-right-side p {
+          line-height: 20px;
+          margin: 15px 0 20px 0;
+      }
+
+      /* Assesment-area */
+
+      .skin-assesment {
+        padding: 30px 0 100px 0;
+       }
+
+       .assesment-left-side {
+        padding-left: 0;
+      }
+
+      .assesment-left-side h2 {
+        font-size: 32px;
+        margin:  10px 0 20px 0;
+      }
+
+      .assesment-left-side p {
+        font-size: 16px;
+        line-height: 25px; 
+      }
+
+      .assesment-left-side a {
+        padding: 20px 70px 17px 66px;
+        margin-top: 10px;
+     }
+
+     .assesment-left-side a:first-of-type {
+        padding: 20px 62px 18px 70px;
+        margin-top: 8px;
+      }
+
+      
+  .assesment-left-side a:last-of-type {
+    margin-left: 7px;
+     
+}
+
+.price-box {
+    width: 100px;
+    height: 100px;
+    top: 87%;
+    right: 7%;
+  }
+
+  .assesment-left-side span {
+    font-size: 22px; 
+}
+
+.assesment-right-side {
+    padding-left: 0;
+  }
+
+  /* Face Area */
+
+  .face-document img:last-of-type {
+      margin: 20px auto;
+   
+      
+  }
+
+  /* Card Area */
+
+  .card-document {
+    padding: 20px;
+  }
+
+  .footer-area .navbar-toggler {
+    display: none;
+  }
+  
 
 
 
@@ -33,122 +213,280 @@
 @media screen and (max-width: 767px){
 
    
- /* Hero-Area */
+        /* Nav-area */
 
- .about-our {
-    padding: 66px 0 35px 0;
-}
+        .nav-items ul {
+            display: none;
+        }
 
- .hero-content {
-     text-align: center;
+        .nav-items .toggle-bar {
+            display: block;
+        }
+
+        /* Hero-Area */
+
+        .hero-area {
+        
+            padding: 100px  0 85px 0;
+        }
+        
+        .hero-area .hero-text h1 {
+            font-size: 30px;
+        }
+
+        .hero-area .hero-text p {
+            font-size: 14px;
+        }
+
+        .hero-area .hero-text p br {
+            display: none;
+        }
+
+        .hero-area .hero-text a:first-of-type {
+            display: block;
+            margin-bottom: 15px;
+            text-align: center;
+            padding: 15px 36px;
+    
+        }
+
+        .hero-area .hero-text a:last-of-type {
+            margin: 0 0 17px 0;
+            padding: 15px 36px;
+            display: block;
+            text-align: center;
+        }
+
+       /* skin area */
+
+       .skin-left-side img {
+        margin: 40px 0 0 0;
+        padding-left: 40px;
+    }
+
+    .skin-right-side {
+        margin: 152px 0 0 0;
+        padding-left: 10px;
+    }
+
+    
+    .skin-right-side h3 {
+        font-size: 32px;
+    }
+
+    .skin-right-side p {
+        font-size: 14px;
+        margin: 20px 0 27px 0;
+    }
+
+    .skin-right-side a {
+        display: block;
+        text-align: center;
+    
+    }
+
+
+    .skin-text { 
+        padding: 15px;
+      }
+
+      .skin-text h4 {
+        font-size: 14px;
+      }
+
+      .skin-text p {
+        font-size: 12px;
+        
+      }
+
+
+
+    /* Assesment Area */
+
+    .skin-assesment {
+        padding: 0;
+    }
+
+    
+    .assesment-left-side {
+        padding-left: 0;
+    }
+  
+
+    .assesment-left-side h2 {
+        font-size: 32px;
+        line-height: 44px;
+        margin:  20px 0 36px 0;
+    }
+
+    .assesment-left-side p {
+       
+        font-size: 14px;
+        line-height: 24PX; 
+    }
+
+
+    .assesment-left-side span {
+       
+        text-align: center;
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .assesment-right-side {
+        padding: 40px 0 0 0;
+      
+    }
+
+    .assesment-left-side a:first-of-type {
+        padding: 21px 67px;
+        border-radius: 70px;
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+
+      .assesment-left-side a:last-of-type {
+         display: block;
+         margin: 0 auto;
+        }
+
+      .assesment-left-side span {
+        margin-left: 10px;
+      }
+
+      /* Our Different Area */
+
+      .our-difference {
+        padding: 102px 0 40px 0;
+      }
+
+      .our-title {
+        margin-bottom: 39px;
+      }
+
+      .our-text-area h2::before {
+        left: -12px;
+    }
+
+    /* Face Area */
+
+    .face-items {
+        padding: 45px 51px;
+    }
+
+    .face-title h2 {
+        font-size: 32px;
+        margin-top: 30px;
+    }
+        
+    
+
+    .face-title {
+        padding-bottom: 49px;
+      }
+
+      /* .our-text-area p:last-of-type {
+         
+      } */
+
+      .face-items {
+        transform: translateY(-9%);
+        padding-top: 10px;
+
+      }
+
+      .our-text-area .last-p {
+          padding-bottom: 150px;
+      }
+
+      .face-document {
+        padding: 11px 0 9px 17px;
+      }
+
+      .face-document img {
+          padding-top: 20px;
+      }
+
+      /* Card Area */
+
+      .card-items {
+        padding: 0;
+      }
+
+      .card-main-title {
+        padding-bottom: 0;
+      }
+
+      .card-body h5,
+      span {   
+        font-size: 14px;
+      }
+
+      .card-body span {
+        margin: 18px 0 0 31px;
+      }
+
+      .card-body h3 {
+        font-size: 22px;
+      }
+
+      .card-body p {
+       font-size: 14px;
+    }
+
+    .card-body h6 {
+      font-size: 12px;
+      margin-top: 0; 
+   }
+
+   .card-link a {
+    font-size: 18px;
+    padding: 50px 0 66px 0;
  }
 
- .hero-area .hero-content h2 {
-    font-size: 27px;
-    text-align: center;
-    margin: 50px 0 30px 0;
+ .card {
+   margin-bottom: 20px;
+ }
+
+ .card-main-title h2 {
+  font-size: 24px;
+  padding: 38px 0 30px 0;
 }
 
-.hero-area .hero-content p {
-    display: none;
+ /* footer */
+
+ 
+ 
+ .footer-area .nav-items ul {
+  display:inline-block;
 }
 
-.hero-area .hero-content a {
-    font-size: 13px;
-    padding: 9px 37px;
+.footer-area .logo-area {
+  text-align: center;
 }
 
-.hero-area .hero-content a:last-of-type {
-    margin-left: 10px;
-    color: #000;
-    background-color: #fff;
+.footer-area .navbar-brand img {
+  width: 165px;
+  height: 165px;
+  border-radius: 50%;
 }
 
-.fixed-area {
-    display: none;
+.footer-area .navbar-toggler {
+  display: none;
 }
 
-
-.our-company h2,
-.service-area h2,
-.partner-area h2 {
-    margin: 15px 0;  
-}
-
-.our-company p,
-  .service-area p,
-  .partner-area p {
-    margin-bottom: 25px;  
-    
-}
-
-.our-company a,
-.service-area a,
-.partner-area a {
-    margin-bottom: 50px;
-    padding: 9px 22px;
-    background-color: #FFC000;
-}
-
-/* Do Area */
-
-.do-area {
-    padding: 70px 0 50px 0;
-}
-
-.do-content {
-    max-width: 100%;
-}
-
-/* Core Team Area */
-
-.core-team {
-    padding: 80px 0 80px 0;
-}
-
-/* Testimonial Area */
-
- .testimonial-area {
-    padding: 60px 0 95px 0;
-} 
-
-.testimonial-img img {
-    margin: 0 0 20px 20px;
-    
-}
-
-.testimonial-content-area {
-    padding: 20px 27px 50px 20px;
-}
-
-.testimonial-content h2 {
-    margin: 5px 0 4px 0;
-}
-
-.testimonial-title h2 {
-    margin: 60px 0;
-    
-}
-
-/* Fotter */
-
-.contact-us h2, .news-area h2 {
-    margin: 18px 0 20px 0;
-}
 
 .copyright {
-    justify-content: center;
-    color: #aaaaaa
+font-size: 14px;
+text-align: center;
 }
 
-.copy-left-text p {
-    margin: 20px 0 0 0;
-}
+ 
 
-.copy-right p {
-    margin: 5px 0 0 0;
-}
 
+  
   
 }
 
