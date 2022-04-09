@@ -1,0 +1,157 @@
+
+
+
+
+/* for lg devices */
+
+@media screen and (min-width:992px) and (max-width: 1199px) {
+
+}
+
+
+           
+
+/* for ipad */
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+
+    
+
+
+
+  
+   
+
+}
+
+
+
+
+
+/* for mobile */
+
+@media screen and (max-width: 767px){
+
+   
+ /* Hero-Area */
+
+ .about-our {
+    padding: 66px 0 35px 0;
+}
+
+ .hero-content {
+     text-align: center;
+ }
+
+ .hero-area .hero-content h2 {
+    font-size: 27px;
+    text-align: center;
+    margin: 50px 0 30px 0;
+}
+
+.hero-area .hero-content p {
+    display: none;
+}
+
+.hero-area .hero-content a {
+    font-size: 13px;
+    padding: 9px 37px;
+}
+
+.hero-area .hero-content a:last-of-type {
+    margin-left: 10px;
+    color: #000;
+    background-color: #fff;
+}
+
+.fixed-area {
+    display: none;
+}
+
+
+.our-company h2,
+.service-area h2,
+.partner-area h2 {
+    margin: 15px 0;  
+}
+
+.our-company p,
+  .service-area p,
+  .partner-area p {
+    margin-bottom: 25px;  
+    
+}
+
+.our-company a,
+.service-area a,
+.partner-area a {
+    margin-bottom: 50px;
+    padding: 9px 22px;
+    background-color: #FFC000;
+}
+
+/* Do Area */
+
+.do-area {
+    padding: 70px 0 50px 0;
+}
+
+.do-content {
+    max-width: 100%;
+}
+
+/* Core Team Area */
+
+.core-team {
+    padding: 80px 0 80px 0;
+}
+
+/* Testimonial Area */
+
+ .testimonial-area {
+    padding: 60px 0 95px 0;
+} 
+
+.testimonial-img img {
+    margin: 0 0 20px 20px;
+    
+}
+
+.testimonial-content-area {
+    padding: 20px 27px 50px 20px;
+}
+
+.testimonial-content h2 {
+    margin: 5px 0 4px 0;
+}
+
+.testimonial-title h2 {
+    margin: 60px 0;
+    
+}
+
+/* Fotter */
+
+.contact-us h2, .news-area h2 {
+    margin: 18px 0 20px 0;
+}
+
+.copyright {
+    justify-content: center;
+    color: #aaaaaa
+}
+
+.copy-left-text p {
+    margin: 20px 0 0 0;
+}
+
+.copy-right p {
+    margin: 5px 0 0 0;
+}
+
+  
+}
+
+
+
+
